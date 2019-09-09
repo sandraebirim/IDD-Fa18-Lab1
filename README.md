@@ -106,6 +106,7 @@ On the board, there is an exposed battery and a cirlce notated with GND, indicat
 
 **Make a video showing off your Frankenlight.**
 
-[Frankenlight](https://youtu.be/f7pST5Y3Xb0)
+[Frankenlight Video](https://youtu.be/f7pST5Y3Xb0)
+
 Frankenlight Schematic: ![Frankenlight Schematic](https://github.com/sandraebirim/IDD-Fa18-Lab1/blob/master/frankenlight.jpeg)
 **Include any schematics or photos in your lab write-up.**
