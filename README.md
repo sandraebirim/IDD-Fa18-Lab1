@@ -8,7 +8,7 @@ We've copied the questions from the lab here. Answer them below!
 
 ## Part A. Set Up a Breadboard
 
-![Image of breadboard](https://github.com/sandraebirim/IDD-Fa18-Lab1/blob/master/breadboard.jpeg)
+[Image of breadboard](https://github.com/sandraebirim/IDD-Fa18-Lab1/blob/master/breadboard.jpeg)
 
 
 ## Part B. Manually Blink a LED
@@ -16,7 +16,6 @@ We've copied the questions from the lab here. Answer them below!
 **a. What color stripes are on a 100 Ohm resistor?**
  
  A 100 Ohm resistor has the following stripes: Brown, Black, Brown, Gold. 
- The resistor we are using is 220 Ohms and has the colors Brown, Black, Black, Red, Red. 
  
 **b. What do you have to do to light your LED?**
 
@@ -58,10 +57,13 @@ Decreasing the delays to 15 milliseconds essentially changed the LED into a cont
 
 **a. Are you able to get the LED to glow the whole turning range of the potentiometer? Why or why not?**
 
-Yes, the potentiometer functions as a variable resistor. As resistance decreases, the amount that the light glows increases, unnoticeably at first but more noticably after passing the halfway point on the potentiometer. 
+Yes, the potentiometer functions as a variable resistor. As resistance decreases, the amount that the light glows increases, unnoticeably at first but more noticably after passing the halfway point on the potentiometer. The light doesn't go entirely out because the resistance on the potentiometer never goes high enough to entirely prevent current from runnibng through the LED. 
 
+[Potentiometer](https://youtu.be/mG-0--jWLEM)
 
 ## Part E. Fade an LED using Arduino
+
+[Fade Video](https://youtu.be/EdQN_qhOrHM)
 
 **a. What do you have to modify to make the code control the circuit you've built on your breadboard?**
 
@@ -78,20 +80,33 @@ analogWrite() can control the percentage of time that the LED light is on while 
 
 ### 1. Take apart your electronic device, and draw a schematic of what is inside. 
 
+[Schematic of inside of calculator](https://github.com/sandraebirim/IDD-Fa18-Lab1/blob/master/calculator%20system%20design.jpeg) 
+
 **a. Is there computation in your device? Where is it? What do you think is happening inside the "computer?"**
+
+From [this image](https://github.com/sandraebirim/IDD-Fa18-Lab1/blob/master/calculator.jpeg), I would assume the computation for this calculator takes place in the black circular object. In this "computer", I would assume that it is taking in the numbers that are being pushed, displaying the numbers, and the doing the appropriate calculations. 
 
 **b. Are there sensors on your device? How do they work? How is the sensed information conveyed to other portions of the device?**
 
+There are no sensors on the calculator. 
+
 **c. How is the device powered? Is there any transformation or regulation of the power? How is that done? What voltages are used throughout the system?**
 
+The calculator is powered by a 3V battery where the power is transformed by the circuit to be utilized to power the LED and to connect the buttons to the "computer" and LED. 
+
 **d. Is information stored in your device? Where? How?**
+
+The numbers and processes required for calculations must be stored, most likely in the black "computer" component. 
 
 ### 2. Using your schematic, figure out where a good point would be to hijack your device and implant an LED.
 
 **Describe what you did here.**
 
+On the board, there is an exposed battery and a cirlce notated with GND, indicating ground. There are also 2 LED lights on the back on the board that have no clear use but where the positive ends are notated as well. I chose to hijack one of these two lights, connect to a breadboard, and use a button on the breadboard to turn on and off the light. 
+
 ### 3. Build your light!
 
 **Make a video showing off your Frankenlight.**
 
+[Frankenlight] (https://youtu.be/f7pST5Y3Xb0)
 **Include any schematics or photos in your lab write-up.**
