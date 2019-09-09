@@ -80,11 +80,11 @@ analogWrite() can control the percentage of time that the LED light is on while 
 
 ### 1. Take apart your electronic device, and draw a schematic of what is inside. 
 
-[Schematic of inside of calculator](https://github.com/sandraebirim/IDD-Fa18-Lab1/blob/master/calculator%20system%20design.jpeg) 
+Schematic of inside of calculator ![Schematic of inside of calculator](https://github.com/sandraebirim/IDD-Fa18-Lab1/blob/master/calculator%20system%20design.jpeg) 
 
 **a. Is there computation in your device? Where is it? What do you think is happening inside the "computer?"**
 
-From [this image](https://github.com/sandraebirim/IDD-Fa18-Lab1/blob/master/calculator.jpeg), I would assume the computation for this calculator takes place in the black circular object. In this "computer", I would assume that it is taking in the numbers that are being pushed, displaying the numbers, and the doing the appropriate calculations. 
+From this image ![this image](https://github.com/sandraebirim/IDD-Fa18-Lab1/blob/master/calculator.jpeg), I would assume the computation for this calculator takes place in the black circular object. In this "computer", I would assume that it is taking in the numbers that are being pushed, displaying the numbers, and the doing the appropriate calculations. 
 
 **b. Are there sensors on your device? How do they work? How is the sensed information conveyed to other portions of the device?**
 
