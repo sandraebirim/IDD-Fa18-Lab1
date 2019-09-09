@@ -1,6 +1,6 @@
 # IDD-Fa18-Lab1: Blink!
 
-**A lab report by Sandra Ebirim*
+#### A lab report by Sandra Ebirim
 
 
 ## Part A. Set Up a Breadboard
@@ -38,6 +38,7 @@ Adding a resistor would protect the board and external LED because it limits the
 
 Decreasing the delays to 15 milliseconds essentially changed the LED into a continuous stream. 
 ![Delay](https://github.com/sandraebirim/IDD-Fa18-Lab1/blob/master/delay.png)
+To prove to myself that it was still blinking, I could write a function that prints each time the light turns on or off. 
 
 **e. Modify the code to make your LED blink your way. Save your new blink code to your lab 1 repository, with a link on the README.md.**
 
