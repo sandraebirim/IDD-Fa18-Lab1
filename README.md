@@ -8,7 +8,7 @@ We've copied the questions from the lab here. Answer them below!
 
 ## Part A. Set Up a Breadboard
 
-[insert a photo of your breadboard setup here]
+[[https://github.com/sandraebirim/IDD-Fa18-Lab1/blob/master/breadboard.HEIC]]
 
 
 ## Part B. Manually Blink a LED
