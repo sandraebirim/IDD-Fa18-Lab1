@@ -2,9 +2,6 @@
 
 **A lab report by Sandra Ebirim*
 
-> Include your responses to the bold questions on your own fork of the lab activities. Include snippets of code that explain what you did. Deliverables are due next Tuesday. Post your lab reports as `README.md` pages on your GitHub, and post a link to that on your main class hub page.
-
-We've copied the questions from the lab here. Answer them below!
 
 ## Part A. Set Up a Breadboard
 
@@ -84,7 +81,7 @@ Schematic of inside of calculator ![Schematic of inside of calculator](https://g
 
 **a. Is there computation in your device? Where is it? What do you think is happening inside the "computer?"**
 
-From this image ![this image](https://github.com/sandraebirim/IDD-Fa18-Lab1/blob/master/calculator.jpeg), I would assume the computation for this calculator takes place in the black circular object. In this "computer", I would assume that it is taking in the numbers that are being pushed, displaying the numbers, and the doing the appropriate calculations. 
+From this image ![this image](https://github.com/sandraebirim/IDD-Fa18-Lab1/blob/master/calculator.jpeg), I would assume the computation for this calculator takes place in the black circular object. In this "computer", I would assume that it is taking in the numbers that are being pushed, displaying the numbers, and then doing the appropriate calculations. 
 
 **b. Are there sensors on your device? How do they work? How is the sensed information conveyed to other portions of the device?**
 
@@ -102,11 +99,12 @@ The numbers and processes required for calculations must be stored, most likely 
 
 **Describe what you did here.**
 
-On the board, there is an exposed battery and a cirlce notated with GND, indicating ground. There are also 2 LED lights on the back on the board that have no clear use but where the positive ends are notated as well. I chose to hijack one of these two lights, connect to a breadboard, and use a button on the breadboard to turn on and off the light. 
+On the board, there is an exposed battery and a cirlce notated with GND, indicating ground. There are also 2 LED lights on the back on the board that have no clear use but also have positive ends notated as well. I chose to hijack one of these two lights, connect to a breadboard, and use a button on the breadboard to turn on and off the light. 
 
 ### 3. Build your light!
 
 **Make a video showing off your Frankenlight.**
 
-[Frankenlight] (https://youtu.be/f7pST5Y3Xb0)
+[Frankenlight](https://youtu.be/f7pST5Y3Xb0)
+Frankenlight Schematic: ![Frankenlight Schematic](https://github.com/sandraebirim/IDD-Fa18-Lab1/blob/master/frankenlight.jpeg)
 **Include any schematics or photos in your lab write-up.**
